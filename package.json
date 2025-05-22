@@ -1,0 +1,33 @@
+{
+	"name": "whop-nextjs-app-template",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "whop-proxy --command 'next dev --turbopack'",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"prod": "next build && next start"
+	},
+	"dependencies": {
+		"@vercel/functions": "^2.0.3",
+		"@whop-apps/sdk": "0.0.1-canary.111",
+		"@whop/api": "^0.0.21-canary.1",
+		"next": "15.3.2",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"socket.io": "^4.8.1",
+		"socket.io-client": "^4.8.1",
+		"express": "^4.18.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@tailwindcss/postcss": "^4",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"@whop-apps/dev-proxy": "0.0.1-canary.110",
+		"tailwindcss": "^4",
+		"typescript": "^5"
+	}
+}
